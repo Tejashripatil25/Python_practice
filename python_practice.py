@@ -1,8 +1,8 @@
 """"""
 """
 1. How would you confirm that 2 strings have the same identity?
-a = "Tejashri"
-b = "Tejashri"
+a = "Rajashri"
+b = "Rajashri"
 print(id(b))
 print(id(a))
 if a is b:
@@ -11,7 +11,7 @@ else:
     print("False")
 =========================================================
 2. How would you check if each word in a string begins with a capital letter?
-s = "Ramdas Tibile"
+s = "Salman Khan"
 print(s.istitle())
 =========================================================
 3. Check if a string contains a specific substring
@@ -39,13 +39,13 @@ print(s.capitalize())
 o/p: Python is easy language and python is easy to learn
 =========================================================
 8. What is an f-string and how do you use it?
-name = "Tejashri Patil"
+name = "Rajashri Patil"
 age = 25
 print(f"My name is {name} and my age is {age}")
-o/p:My name is Tejashri Patil and my age is 25
+o/p:My name is Rajashri Patil and my age is 25
 =========================================================
 9. Interpolate a variable into a string using format()
-name = "Tejashri Patil"
+name = "Rajashri Patil"
 age = 25
 print("My name is {} and my age is {}".format(name,age))
 ==========================================================
@@ -131,9 +131,9 @@ print(s.startswith("p"))
 print(s.endswith("e"))
 ==================================================================
 30. What is the effect of multiplying a string by 3?
-s = "Tejashri"
+s = "Rajashri"
 print(s*3)
-o/p:TejashriTejashriTejashri
+o/p:RajashriRajashriRajashri
 ==================================================================
 31. Capitalize the first character of each word in a string
 s = "saare jahan se accha hindu sita hamara"
